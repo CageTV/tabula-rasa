@@ -1,96 +1,39 @@
-Nymph Nerds Presents: Tabula Rasa
-Tabula Rasa is a carefully crafted “bugfix + tools” modlist for The Elder Scrolls V: Skyrim Special Edition (or AE), built to provide a stable, conflict-free foundation for players who want to assemble their own customised mod setup. Inspired by Biggie_boss’s groundbreaking Baseline modlist, this version expands the concept with improved compatibility, modernised tools, updated Community Shaders, and a comprehensive suite of engine, script, and stability fixes.
-True to its name, Tabula Rasa offers a pure starting point—no visual overhauls, no gameplay changes, no content replacements. Instead, it focuses on the technical backbone of Skyrim: engine refinements, bugfix collections, stability enhancements, correct load-order foundations, modern shader compatibility, and all the utilities needed for further modding. Whether you’re planning a lightweight personal load order or a massive overhaul, this modlist ensures you begin with a flawless base.
-Built around the latest Community Shaders, Tabula Rasa provides up-to-date support for lighting, rendering, shadows, and other graphics systems. Combined with curated patchers and essential modding tools, it eliminates many of the hidden landmines that cause instability in heavily modded setups.
-Historical Origins of the Name “Tabula Rasa”The phrase tabula rasa originates from Latin, meaning “scraped tablet” or clean slate, referring to the wax writing tablets used in ancient Rome that could be wiped clean and reused. Philosophers adopted the metaphor to describe the human mind at birth:
-Aristotle first compared the mind to an unwritten tablet, shaped entirely by experience.
-John Locke later expanded the idea, calling the mind “white paper, void of all characters,” arguing that knowledge is acquired through experience rather than being innate.
-The metaphor aligns perfectly with this modlist’s purpose: providing a blank, stable, reliable foundation ready to be filled with whatever Skyrim experience you want to create.
-Join Our Community to access the full project, updates, support channels, and development news. Join the Nymph Crew on Discord:
-https://discord.gg/ezJVqBJvVj
-All current and upcoming Nymph Nerds modlists—including Tabula Rasa and other full-scale projects—are available directly through the Discord.
-Installation Instructions: Installing Tabula Rasa is straightforward—and even easier if you have Nexus Premium, as most downloads will occur automatically. If you are updating the list rather than installing fresh, you may skip to the updating section (not included here yet, but I can write one if desired).
-Below are the required pre-installation steps to ensure a clean, trouble-free setup:
-Pre-Installation Requirements
-Install Visual C++ x64 and .NET Runtime v5 (Desktop x64).
-These runtimes are essential for tools used by the modlist.
-Disable automatic updates for Skyrim on Steam.
-Keeping your Skyrim version stable prevents mismatches with modding tools.
-Ensure your Skyrim SE/AE installation is updated to version 1.6.1170 and set to English.
-Avoid installing Steam, Skyrim, or your modlists inside Program Files, as this can cause permissions issues.
-Completely disable OneDrive and similar software that hooks into user directories.
-These can block, redirect, or corrupt modlist file paths.
-Launch Skyrim once and reach the main menu.
-Allow the game to download the full Anniversary Edition Creation Club content.
-Do NOT verify game files.
-Do NOT alt-tab during this process.
-If you receive errors related to Curios or other Creation Club files:
-Open your Skyrim Data folder.
-Delete all files beginning with cc.
-Relaunch Skyrim and allow the content to redownload.
-Again, do NOT alt-tab while this occurs.
-Disable or uninstall third-party antivirus programs (e.g., MalwareBytes, Webroot).
-These often interfere with automated installs, file extraction, and patchers.
-Install the Skyrim Special Edition Creation Kit via Steam and run it once.
-(Required for asset handling and certain backend tools.)
-https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/
+Tabula Rasa is a lightweight “bugfix + tools” Wabbajack modlist that gives Skyrim SE/AE a clean, stable, and modernized foundation for building your own load order—no visuals, no gameplay changes, just a rock-solid base with Community Shaders and essential fixes preconfigured.
 
-Here is a clean, polished, fully integrated Step-by-Step Wabbajack Installation Guide written specifically for Tabula Rasa, matching the style of the rest of the document. You can drop this directly into your modlist page or documentation.
-Wabbajack Installation GuideInstalling Tabula Rasa through Wabbajack is simple and mostly automated—as long as you follow the correct setup steps. Before beginning, make sure you have completed all Pre-Installation Requirements listed above.
-1. Prepare Your Folders to avoid permission issues and prevent your install from breaking. Create the following folders outside of Program Files, OneDrive, Desktop, or Documents.
-Recommended locations:
+Overview
+Tabula Rasa is built for players and mod authors who want a conflict-free starting point focused on engine stability, scripting reliability, and modern shader support rather than content or balance changes. Inspired by Biggie_boss’s Baseline, it updates the concept with current tools, curated patchers, and a fully integrated Community Shaders setup so you can 
+Immediately begin layering your own mods on top.
 
-C:\Modding\TabulaRasa\
-C:\Modding\Wabbajack\
-C:\Modding\Downloads\
+Features
+Pure “blank slate” setup: no new quests, textures, models, combat tweaks, or perk overhauls—only technical fixes and tools.
 
-You should end up with:
-Installation Folder: where Tabula Rasa will be installed
-Downloads Folder: where Wabbajack will store mod archives
-Wabbajack Folder: where Wabbajack.exe is located
-Do NOT install any of these to the Desktop, Documents, or Program Files.
-2. Download Wabbajack
-Go to https://www.wabbajack.org
-Download the latest release of Wabbajack.exe
-Place it in your dedicated folder (e.g., C:\Modding\Wabbajack\)
+Modern engine and script stack, including stability enhancements, bugfix rolls, load-order foundations, and shader compatibility tuned for heavy modding.
 
-3. Start Wabbajack
-Run Wabbajack.exe
-Select Install a Modlist
-Search for Tabula Rasa in the gallery
-(If distributed privately via Discord, import the .wabbajack file instead.)
+Fully configured Community Shaders with support for updated lighting, rendering, and shadows out of the box.
 
-4. Configure Your Install. When prompted:
-Installation Location:
-Choose your designated Tabula Rasa folder (e.g., C:\Modding\TabulaRasa\)
-Download Location:
-Choose your Downloads folder (C:\Modding\Downloads\)
-Make sure neither location is synced to cloud services (OneDrive, Google Drive, Dropbox, etc.).
-5. Begin the Installation. Install and let Wabbajack begin:
-If you have Nexus Premium, downloads occur automatically.
-If you do not have Premium, Wabbajack will prompt you to manually download files.
-Follow the browser prompts exactly—incorrect downloads will fail the install.
-Keep Wabbajack focused and avoid interrupting the process.
-⚠️ Do NOT use your PC heavily while Wabbajack installs.
-Extracting thousands of files can spike CPU usage and slow the process.
-6. When the Installation CompletesYou will see a green check mark when everything is successful.
-If Wabbajack reports missing or failed downloads:
-Click Retry first
-Ensure the file path matches what Wabbajack expects
-Make sure antivirus and Windows Defender are disabled
-Confirm you did not place folders inside protected Windows locations
-If you need help, join our Discord (linked below).
-7. Launching Tabula Rasa
-Navigate to your Tabula Rasa installation folder
-Run ModOrganizer.exe
-Select the Tabula Rasa profile
-Launch Skyrim using SKSE from inside Mod Organiser 2
-Skyrim should now load into a clean, stable “blank slate” environment ready for your personal modding
+Wabbajack-powered, reproducible install designed to eliminate common pitfalls like broken paths, bad permissions, and mismatched executable versions.
 
-Do NOT launch Skyrim from Steam—it will break the setup.
-8. After Installation (Strongly Recommended)
-Back up your finished Tabula Rasa install folder
-Export your MO2 profile once you begin building your custom load order
-Keep auto-updates disabled on Steam
-Avoid verifying game files unless instructed
-Join Discord for patches, updates, and support
+Requirements
+Skyrim Special Edition or Anniversary Edition updated to version 1.6.1170, set to English.
+
+Visual C++ x64 and .NET Desktop Runtime v5 are installed for bundled tools and patchers.
+
+Skyrim, Steam, Wabbajack, and the modlist are installed outside Program Files, OneDrive, Desktop, and Documents to avoid permission and sync issues.
+
+Creation Club content is fully downloaded by launching Skyrim once to the main menu, without verifying files or alt-tabbing during downloads.
+
+Installation (Wabbajack)
+Create three folders such as C:\Modding\Wabbajack\, C:\Modding\TabulaRasa\, and C:\Modding\Downloads\, all outside protected or cloud-synced locations.
+
+Download the latest Wabbajack release from the official site and place it in your Wabbajack folder.
+
+Run Wabbajack, choose “Install a Modlist,” and select or import the Tabula Rasa list.
+
+Set the installation folder to your Tabula Rasa directory and the downloads folder accordingly, then start the install.
+
+Let Wabbajack complete without heavy multitasking; if there are failed downloads, use Retry and verify paths, antivirus, and folder locations.
+
+After installation, launch ModOrganizer.exe from the Tabula Rasa folder, select the Tabula Rasa profile, and start the game via SKSE inside MO2—never from Steam.
+
+Post‑Install and Support
+Backing up the finished Tabula Rasa installation and exporting your MO2 profile is strongly recommended before you begin layering your own mods. Keep Steam auto-updates disabled and avoid verifying game files unless specifically instructed, to preserve compatibility. For updates, troubleshooting, and access to other Nymph Nerds projects, join the Nymph Crew Discord listed on the Nexus Mods page.
